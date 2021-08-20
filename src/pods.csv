@@ -1,0 +1,61 @@
+site,domain,env,host_profile,name,count,vcpu,ram_gb,estorage_gb,pstorage_gb
+Site 1,Non-Prod,Dev,K8s-Worker-Apps,ACME API,1,1,4,2,20
+Site 1,Non-Prod,Dev,K8s-Worker-Apps,ACME Backend API,1,1,4,2,20
+Site 1,Non-Prod,Dev,K8s-Worker-Apps,Foo Account API,1,1,2,2,20
+Site 1,Non-Prod,Dev,K8s-Worker-Apps,Foo Kong API,1,1,2,2,20
+Site 1,Non-Prod,Dev,K8s-Worker-Apps,Foo SSO API,1,1,2,2,20
+Site 1,Non-Prod,Dev,K8s-Worker-Apps,SMS Gateway,1,2,8,2,20
+Site 1,Non-Prod,Dev,K8s-Worker-DB1,ACME Database,1,2,8,2,20
+Site 1,Non-Prod,Dev,K8s-Worker-DB2,Foo Database,1,2,8,2,20
+Site 1,Non-Prod,Dev,K8s-Worker-DS,ACME Eventbus,1,1,4,2,20
+Site 1,Non-Prod,Dev,K8s-Worker-DS,Foo Elasticsearch,1,1,2,2,20
+Site 1,Non-Prod,Dev,K8s-Worker-DS,Foo RabbitMQ,1,2,8,2,20
+Site 1,Non-Prod,Dev,K8s-Worker-DS,Foo Redis,1,2,8,2,20
+Site 1,Non-Prod,Pre-Prod,K8s-Worker-Apps,ACME API,2,2,8,2,20
+Site 1,Non-Prod,Pre-Prod,K8s-Worker-Apps,ACME Backend API,2,2,8,2,20
+Site 1,Non-Prod,Pre-Prod,K8s-Worker-Apps,Foo Account API,2,2,4,2,20
+Site 1,Non-Prod,Pre-Prod,K8s-Worker-Apps,Foo Kong API,2,2,4,2,20
+Site 1,Non-Prod,Pre-Prod,K8s-Worker-Apps,Foo SSO API,2,2,4,2,20
+Site 1,Non-Prod,Pre-Prod,K8s-Worker-Apps,SMS Gateway,2,4,16,2,20
+Site 1,Non-Prod,Pre-Prod,K8s-Worker-DB1,ACME Database,3,2,8,2,20
+Site 1,Non-Prod,Pre-Prod,K8s-Worker-DB2,Foo Database,3,2,8,2,20
+Site 1,Non-Prod,Pre-Prod,K8s-Worker-DS,ACME Eventbus,3,2,8,2,20
+Site 1,Non-Prod,Pre-Prod,K8s-Worker-DS,Foo Elasticsearch,3,2,4,2,20
+Site 1,Non-Prod,Pre-Prod,K8s-Worker-DS,Foo RabbitMQ,3,4,16,2,20
+Site 1,Non-Prod,Pre-Prod,K8s-Worker-DS,Foo Redis,3,4,16,2,20
+Site 1,Non-Prod,Staging,K8s-Worker-Apps,ACME API,1,2,8,2,20
+Site 1,Non-Prod,Staging,K8s-Worker-Apps,ACME Backend API,1,2,8,2,20
+Site 1,Non-Prod,Staging,K8s-Worker-Apps,Foo Account API,1,2,4,2,20
+Site 1,Non-Prod,Staging,K8s-Worker-Apps,Foo Kong API,1,2,4,2,20
+Site 1,Non-Prod,Staging,K8s-Worker-Apps,Foo SSO API,1,2,4,2,20
+Site 1,Non-Prod,Staging,K8s-Worker-Apps,SMS Gateway,1,4,16,2,20
+Site 1,Non-Prod,Staging,K8s-Worker-DB1,ACME Database,1,2,8,2,20
+Site 1,Non-Prod,Staging,K8s-Worker-DB2,Foo Database,1,2,8,2,20
+Site 1,Non-Prod,Staging,K8s-Worker-DS,ACME Eventbus,1,2,8,2,20
+Site 1,Non-Prod,Staging,K8s-Worker-DS,Foo Elasticsearch,1,2,4,2,20
+Site 1,Non-Prod,Staging,K8s-Worker-DS,Foo RabbitMQ,1,4,16,2,20
+Site 1,Non-Prod,Staging,K8s-Worker-DS,Foo Redis,1,4,16,2,20
+Site 1,Prod,Prod,K8s-Worker-Apps,ACME API,20,4,16,2,200
+Site 1,Prod,Prod,K8s-Worker-Apps,ACME Backend API,12,4,16,2,200
+Site 1,Prod,Prod,K8s-Worker-Apps,Foo Account API,15,4,16,2,200
+Site 1,Prod,Prod,K8s-Worker-Apps,Foo Kong API,3,4,16,2,200
+Site 1,Prod,Prod,K8s-Worker-Apps,Foo SSO API,15,4,16,2,200
+Site 1,Prod,Prod,K8s-Worker-Apps,SMS Gateway,5,4,16,2,200
+Site 1,Prod,Prod,K8s-Worker-DB1,ACME Database,3,16,64,2,2000
+Site 1,Prod,Prod,K8s-Worker-DB2,Foo Database,3,8,16,2,200
+Site 1,Prod,Prod,K8s-Worker-DS,ACME Eventbus,5,4,16,2,200
+Site 1,Prod,Prod,K8s-Worker-DS,Foo Elasticsearch,3,4,16,2,200
+Site 1,Prod,Prod,K8s-Worker-DS,Foo RabbitMQ,3,4,16,2,200
+Site 1,Prod,Prod,K8s-Worker-DS,Foo Redis,3,4,16,2,200
+Site 2,DR,DR,K8s-Worker-Apps,ACME API,20,4,16,2,200
+Site 2,DR,DR,K8s-Worker-Apps,ACME Backend API,12,4,16,2,200
+Site 2,DR,DR,K8s-Worker-Apps,Foo Account API,15,4,16,2,200
+Site 2,DR,DR,K8s-Worker-Apps,Foo Kong API,3,4,16,2,200
+Site 2,DR,DR,K8s-Worker-Apps,Foo SSO API,15,4,16,2,200
+Site 2,DR,DR,K8s-Worker-Apps,SMS Gateway,5,4,16,2,200
+Site 2,DR,DR,K8s-Worker-DB1,ACME Database,3,16,64,2,2000
+Site 2,DR,DR,K8s-Worker-DB2,Foo Database,3,8,16,2,200
+Site 2,DR,DR,K8s-Worker-DS,ACME Eventbus,5,4,16,2,200
+Site 2,DR,DR,K8s-Worker-DS,Foo Elasticsearch,3,4,16,2,200
+Site 2,DR,DR,K8s-Worker-DS,Foo RabbitMQ,3,4,16,2,200
+Site 2,DR,DR,K8s-Worker-DS,Foo Redis,3,4,16,2,200

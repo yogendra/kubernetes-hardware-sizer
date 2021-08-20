@@ -1,0 +1,20 @@
+site,domain,env,host_profile,name,count,vcpu,ram_gb,estorage_gb,pstorage_gb
+Site 2,DR,Management,Other,Other,15,6,18,0,256
+Site 2,DR,Management,NSX,NSX Controller,8,8,32,0,200
+Site 2,DR,Infra,vRPA,vRPA Addtl,2,8,32,0,35
+Site 2,DR,Infra,NSX,NSX-Edge,2,16,64,50,200
+Site 2,DR,DR,K8s-Master,K8s-Master,3,4,16,2,200
+Site 2,DR,DR-Reporting,Reporting Server,Reporting Server,1,8,64,20,600
+Site 1,Prod,Prod,K8s-Master,K8s-Master,3,4,16,2,50
+Site 1,Prod,Prod-Reporting,Reporting Server,Reporting Server,1,8,64,20,600
+Site 1,Prod,Infra,vRPA,vRPA Addtl,2,8,32,0,35
+Site 1,Prod,Infra,NSX,NSX-Edge,2,16,64,50,200
+Site 1,Non-Prod,Staging,Reporting Server,Reporting Server,1,2,16,20,20
+Site 1,Non-Prod,Staging,K8s-Master,K8s-Master,3,4,16,2,50
+Site 1,Non-Prod,Pre-Prod,Reporting Server,Reporting Server,1,2,16,20,20
+Site 1,Non-Prod,Pre-Prod,K8s-Master,K8s-Master,3,4,16,2,50
+Site 1,Non-Prod,Management,Other,Other,15,6,18,0,256
+Site 1,Non-Prod,Management,NSX,NSX Controller,8,8,32,0,200
+Site 1,Non-Prod,Infra,NSX,NSX-Edge,2,16,64,50,200
+Site 1,Non-Prod,Dev,Reporting Server,Reporting Server,1,2,16,20,20
+Site 1,Non-Prod,Dev,K8s-Master,K8s-Master,3,4,16,2,50
