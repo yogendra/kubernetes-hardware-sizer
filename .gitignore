@@ -1,0 +1,6 @@
+.direnv/
+.env/
+src/.cache
+src/.ipynb_checkpoints
+src/.ipython
+src/.local

@@ -1,0 +1,7 @@
+diagrams
+jupyterlab
+pandas
+numpy
+ipywidgets
+ipydrawio[all]
+
