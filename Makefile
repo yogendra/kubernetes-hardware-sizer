@@ -8,7 +8,7 @@ IMAGE := ${REGISTRY}:${TAG}
 all: build test
 
 build:
-	- docker build -t ${IMAGE} -f Dockerfile .
+	- docker build -t ${IMAGE} -f packaging/Dockerfile .
 
 clean:
 	- docker rmi -f ${IMAGE}
