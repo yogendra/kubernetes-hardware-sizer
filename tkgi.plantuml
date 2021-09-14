@@ -1,0 +1,118 @@
+@startuml ref arch tkgi
+!define osaPuml https://raw.githubusercontent.com/Crashedmind/PlantUML-opensecurityarchitecture2-icons/master
+!include osaPuml/Common.puml
+!include osaPuml/User/all.puml
+!include osaPuml/Hardware/all.puml
+!include osaPuml/Misc/all.puml
+!include osaPuml/Server/all.puml
+!include osaPuml/Site/all.puml
+
+
+frame "Site 1" as s1 {
+
+  frame "Management Domain" as s1_mgmt{
+    frame "Management vSphere Cluster" as s1_mgmt{
+      node vCenter as vcenter
+      node "NSX Manager" as s1_mgmt_nsx_mgr
+    }
+    frame "ESX Host                                                              " as s1_mgmt_esx
+  }
+  frame "Production Domain" as s1_prod{
+    frame "TKGI Production" as "s1_prod_tkgi"{
+
+    }
+
+  }
+  frame "Non-Production Domain" as s1_np {
+    frame "TKGI Non-Production" as s1_np_tkgi{
+      frame "K8s - Test" as s1_np_tkgi_test {
+        frame "Pods/Service" as s1_np_tkgi_test_pods {
+          node "Microservice 1" as s1_np_tkgi_test_pods_ms1
+          node "Microservice 2" as s1_np_tkgi_test_pods_ms2
+          node "Microservice 3" as s1_np_tkgi_test_pods_ms3
+          node "Microservice 4" as s1_np_tkgi_test_pods_ms4
+          node "Microservice 5" as s1_np_tkgi_test_pods_ms5
+        }
+        frame "Addons" as s1_np_tkgi_test_addon {
+          node "Ingress Controller - NCP" as s1_np_tkgi_test_addon_ingress
+          node "Log Shipper - Fluentbit" as s1_np_tkgi_test_addon_log
+          node "Monitoring Agent - TO" as s1_np_tkgi_test_addon_monitor
+          node "Management gent - TMC" as s1_np_tkgi_test_addon_management
+          node "Backup - Velero" as s1_np_tkgi_test_addon_backup
+          node "CNI - NCP" as s1_np_tkgi_test_addon_cni
+          node "CSI - VMware CSI" as s1_np_tkgi_test_addon_csi
+        }
+
+        frame "VMS" as s1_np_tkgi_test_vms {
+          node "Master" as s1_np_tkgi_test_vms_master
+          node "Worker" as s1_np_tkgi_test_vms_worker
+        }
+      }
+      frame "K8s - Dev" as s1_np_tkgi_dev {
+        frame "Pods/Service" as s1_np_tkgi_dev_pods {
+          node "Microservice 1" as s1_np_tkgi_dev_pods_ms1
+          node "Microservice 2" as s1_np_tkgi_dev_pods_ms2
+          node "Microservice 3" as s1_np_tkgi_dev_pods_ms3
+          node "Microservice 4" as s1_np_tkgi_dev_pods_ms4
+          node "Microservice 5" as s1_np_tkgi_dev_pods_ms5
+        }
+        frame "Addons" as s1_np_tkgi_dev_addon {
+          node "Ingress Controller - NCP" as s1_np_tkgi_dev_addon_ingress
+          node "Log Shipper - Fluentbit" as s1_np_tkgi_dev_addon_log
+          node "Monitoring Agent - TO" as s1_np_tkgi_dev_addon_monitor
+          node "Management gent - TMC" as s1_np_tkgi_dev_addon_management
+          node "Backup - Velero" as s1_np_tkgi_dev_addon_backup
+          node "CNI - NCP" as s1_np_tkgi_dev_addon_cni
+          node "CSI - VMware CSI" as s1_np_tkgi_dev_addon_csi
+        }
+
+        frame "VMS" as s1_np_tkgi_dev_vms {
+          node "Master" as s1_np_tkgi_dev_vms_master
+          node "Worker" as s1_np_tkgi_dev_vms_worker
+        }
+      }
+      frame "TKGI - Control Plane" as s1_np_tkgi_cp{
+        frame "TKGI API" as s1_np_tkgi_control {
+          node "API" as s1_np_tkgi__control_api
+          node "DB" as s1_np_tkgi_control_db
+        }
+        frame "Services" as s1_np_tkgi_svc {
+          node "Harbor" as s1_np_tkgi_svc_harbor
+          node "Healthwatch" as s1_np_tkgi_svc_hw
+          node "Healthwatch\nExporter" as s1_np_tkgi_svc_hwe
+        }
+      }
+      frame "Core" as s1_np_tkgi_core {
+        node "Jumpbox" as s1_np_tkgi_jb
+        node "Ops Manager" as s1_np_tkgi_om
+        node "Bosh" as s1_np_tkgi_bosh
+      }
+    }
+    frame "ESX Host" as s1_np_esx {
+      node "Host 1" as s1_np_esx_1
+      node "Host 2" as s1_np_esx_2
+      node "Host 3" as s1_np_esx_3
+    }
+  }
+
+' s1_mgmt -[hidden]r- s1_np
+' s1_np -[hidden]r- s1_prod
+
+' vcenter -[hidden]- s1_mgmt_esx
+' nsx_mgr -[hidden]- s1_mgmt_esx
+
+' s1_np_tkgi --------[hidden]d------- s1_np_esx
+' s1_np_tkgi_dev ---[hidden]d--- s1_np_tkgi_cp
+' s1_np_tkgi_test ----[hidden]d---- s1_np_tkgi_cp
+' s1_np_tkgi_cp --[hidden]d-- s1_np_tkgi_core
+
+' s1_np_tkgi_dev -[hidden]r- s1_np_tkgi_test
+
+' s1_np_tkgi_test_pods --[hidden]d-- s1_np_tkgi_test_addon
+' s1_np_tkgi_test_addon --[hidden]d-- s1_np_tkgi_test_vms
+
+' s1_np_tkgi_dev_pods --[hidden]d-- s1_np_tkgi_dev_addon
+' s1_np_tkgi_dev_addon --[hidden]d-- s1_np_tkgi_dev_vms
+}
+
+@enduml

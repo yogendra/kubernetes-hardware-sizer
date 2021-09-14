@@ -1,0 +1,256 @@
+<mxfile host="65bd71144e">
+    <diagram id="qAm4BBfvQx0zoS3KFt7O" name="Page-1">
+        <mxGraphModel dx="1856" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-1" value="DC1&lt;br&gt;&amp;lt;&amp;lt;Site&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="1520" height="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-27" value="Production&lt;br&gt;&amp;lt;&amp;lt;vSphere Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="60" width="420" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Production&lt;br&gt;&amp;lt;&amp;lt;TKGI Foundation&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+                    <mxGeometry x="1140" y="70" width="390" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-2" value="Management &lt;br&gt;&amp;lt;&amp;lt;vSphere Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="60" width="200" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-3" value="ESX&lt;br&gt;&amp;lt;&amp;lt;Host&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="410" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-4" value="ESX&lt;br&gt;&amp;lt;&amp;lt;Host&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="410" width="840" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-6" value="vCenter&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="210" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-7" value="NSX Manager&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="280" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-8" value="NSX Edge&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="140" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-9" value="AVI Controller&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="70" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-10" value="VRLI&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="280" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-11" value="Non-Production&lt;br&gt;&amp;lt;&amp;lt;vSphere Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="60" width="840" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-12" value="WF Proxy&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="280" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-13" value="Supervisor CP&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="210" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-14" value="Harbor&lt;br&gt;&amp;lt;&amp;lt;PodVM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="280" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-15" value="AVI SE&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="140" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-16" value="Shared Service&lt;br&gt;&amp;lt;&amp;lt;K8s Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="70" width="200" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-17" value="Master&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="485" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-18" value="Worker&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-19" value="Jenkins&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="485" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-20" value="GitLab&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-21" value="Development&lt;br&gt;&amp;lt;&amp;lt;K8s Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="70" width="200" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-22" value="Master&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="705" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-23" value="Worker&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-24" value="Microservice1&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="705" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-25" value="Microservice2&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-26" value="ESX&lt;br&gt;&amp;lt;&amp;lt;Host&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="410" width="420" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-30" value="Harbor&lt;br&gt;&amp;lt;&amp;lt;PodVM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1230" y="270" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-37" value="Production&lt;br&gt;&amp;lt;&amp;lt;K8s Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="80" width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-38" value="Master&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1330" y="230" width="85" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-39" value="Worker&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1430" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-40" value="Microservice1&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1330" y="150" width="85" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-41" value="Microservice2&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1430" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-42" value="TBS&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="485" y="80" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-43" value="Tanzu CNR&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="705" y="80" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-44" value="Tanzu CNR&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="80" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-46" value="Testing&lt;br&gt;&amp;lt;&amp;lt;K8s Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="70" width="200" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-47" value="Master&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="915" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-48" value="Worker&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1010" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-49" value="Microservice1&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="915" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-50" value="Microservice2&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1010" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-51" value="Tanzu CNR&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="915" y="80" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-52" value="DC2&lt;br&gt;&amp;lt;&amp;lt;Site&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1580" y="40" width="1300" height="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-53" value="Management &lt;br&gt;&amp;lt;&amp;lt;vSphere Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1600" y="60" width="200" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-54" value="ESX&lt;br&gt;&amp;lt;&amp;lt;Host&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1600" y="410" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-55" value="ESX&lt;br&gt;&amp;lt;&amp;lt;Host&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1810" y="410" width="620" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-56" value="vCenter&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1610" y="210" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-57" value="NSX Manager&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1610" y="280" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-58" value="NSX Edge&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1610" y="140" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-59" value="AVI Controller&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1610" y="70" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-60" value="VRLI&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1700" y="280" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-61" value="Non-Production&lt;br&gt;&amp;lt;&amp;lt;vSphere Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1810" y="60" width="620" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-62" value="WF Proxy&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1820" y="280" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-63" value="Supervisor CP&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1820" y="210" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-64" value="Harbor&lt;br&gt;&amp;lt;&amp;lt;PodVM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1920" y="280" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-65" value="AVI SE&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="1820" y="140" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-66" value="Shared Service&lt;br&gt;&amp;lt;&amp;lt;K8s Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2010" y="70" width="200" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-67" value="Master&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2025" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-68" value="Worker&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2120" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-69" value="Jenkins&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2025" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-70" value="GitLab&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2120" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-76" value="ESX&lt;br&gt;&amp;lt;&amp;lt;Host&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2440" y="410" width="420" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-77" value="Production Secondary&lt;br&gt;&amp;lt;&amp;lt;vSphere Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2440" y="60" width="420" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-78" value="WF Proxy&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2450" y="280" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-79" value="Supervisor CP&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2450" y="210" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-80" value="Harbor&lt;br&gt;&amp;lt;&amp;lt;PodVM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2550" y="280" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-81" value="AVI SE&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2450" y="140" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-82" value="Production&lt;br&gt;&amp;lt;&amp;lt;K8s Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2640" y="70" width="200" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-83" value="Master&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2655" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-84" value="Worker&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2750" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-85" value="Microservice1&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2655" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-86" value="Microservice2&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2750" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-87" value="TBS&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2025" y="80" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-89" value="Tanzu CNR&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2120" y="80" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-90" value="Tanzu CNR&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2655" y="80" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-91" value="Testing Secondary&lt;br&gt;&amp;lt;&amp;lt;K8s Cluster&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2220" y="70" width="200" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-92" value="Master&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2235" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-93" value="Worker&lt;br&gt;&amp;lt;&amp;lt;VM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2330" y="230" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-94" value="Microservice1&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2235" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-95" value="Microservice2&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2330" y="150" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jFQtCFHf7RdMypHE_TrT-96" value="Tanzu CNR&lt;br&gt;&amp;lt;&amp;lt;Pod&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="2235" y="80" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Harbor&lt;br&gt;&amp;lt;&amp;lt;PodVM&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+                    <mxGeometry x="1230" y="200" width="80" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
