@@ -4,4 +4,4 @@ pandas
 numpy
 ipywidgets
 ipydrawio[all]
-
+jupyterlab-spreadsheet-editor
