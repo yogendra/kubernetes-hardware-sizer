@@ -1,15 +1,16 @@
-FROM python:3.9-buster
+FROM jupyter/scipy-notebook
+
+RUN \
+  set -e && \
+  mkdir -p /home/jovyan/app
+WORKDIR /home/jovyan/app
+
+ADD requirements.txt .
 
 RUN set -e && \
-  mkdir /app && \
-  chown nobody:nogroup -R /app
+  pip install -r requirements.txt
 
-WORKDIR /app
-ADD requirements.txt /app
+ADD src/k8s-sizer.ipynb src/pods.csv src/vms.csv .
 
-RUN pip install -r /app/requirements.txt
-USER nobody
-
-ADD src/notebook.ipynb /app
-
-CMD jupyter-lab
+ENV JUPYTER_ENABLE_LAB yes
+CMD ["start-notebook.sh", "-y", "--no-browser", "--ServerApp.token=''"]
