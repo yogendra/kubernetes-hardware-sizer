@@ -10,7 +10,7 @@ ADD requirements.txt .
 RUN set -e && \
   pip install -r requirements.txt
 
-ADD src/k8s-sizer.ipynb src/pods.csv src/vms.csv __init__.py .
+ADD src/k8s-sizer.ipynb src/pods.csv src/vms.csv src/__init__.py .
 
 ENV JUPYTER_ENABLE_LAB yes
 ENV PYTHONPATH /home/jovyan/app
