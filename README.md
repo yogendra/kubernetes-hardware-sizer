@@ -29,7 +29,7 @@ Kubernetes Hardware Sizer based on Jupyter Notebook
 1. Run jupyter notebook
 
     ```bash
-    JUPITER_TOKEN="" jupyter-lab -y
+    PYTHONPATH=$PWD/src jupyter-lab -y --ServerApp.token='' --notebook-dir=$PWD/src
     ```
 
 ## Run via Docker
