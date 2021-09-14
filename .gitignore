@@ -5,3 +5,4 @@ src/.ipynb_checkpoints
 src/.ipython
 src/.local
 .DS_Store
+**/*.pyc
