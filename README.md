@@ -17,7 +17,7 @@ Kubernetes Hardware Sizer based on Jupyter Notebook
 1. Activate virtual env
 
     ```bash
-    .env/bin/activate
+    source .env/bin/activate
     ```
 
 1. Install dependencies
@@ -29,7 +29,7 @@ Kubernetes Hardware Sizer based on Jupyter Notebook
 1. Run jupyter notebook
 
     ```bash
-    jupyter-lab -y
+    JUPITER_TOKEN="" jupyter-lab -y
     ```
 
 ## Run via Docker
@@ -38,8 +38,6 @@ Kubernetes Hardware Sizer based on Jupyter Notebook
 docker run --rm -it -p 8888:8888 ghcr.io/yogendra/k8s-hw-sizer:latest
 ```
 
-
-
 ```bash
-
+open http://127.0.0.1:8888/lab
 ```
