@@ -1,5 +1,7 @@
 # Kubernetes Hardware Sizer
 
+[![Create and publish a Docker image](https://github.com/yogendra/kubernetes-hardware-sizer/actions/workflows/merge.yml/badge.svg)](https://github.com/yogendra/kubernetes-hardware-sizer/actions/workflows/merge.yml)
+
 ## Run on Binder
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yogendra/kubernetes-hardware-sizer/main?filepath=src%2Fnotebook.ipynb)
