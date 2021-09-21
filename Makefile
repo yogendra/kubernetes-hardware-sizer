@@ -3,7 +3,7 @@ TAG = latest
 
 IMAGE := ${REGISTRY}:${TAG}
 
-.PHONY: all build test clean dev local_install local_run
+.PHONY: all build test clean dev local_install local_run test-persistance
 
 all: build test
 
@@ -18,6 +18,10 @@ dev: build
 
 test: build
 	- docker run --rm -p 8888:8888 -it ${IMAGE}
+
+test-persistance: build
+	- docker run --rm -p 8888:8888 -v ${PWD}/test/persistent-workspace/data:/home/jovyan/app/data ${IMAGE}
+
 
 local_install:
 	- pip install -r requirements.txt
