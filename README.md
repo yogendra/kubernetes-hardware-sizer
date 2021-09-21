@@ -36,10 +36,18 @@ Kubernetes Hardware Sizer based on Jupyter Notebook
 
 ## Run via Docker
 
-```bash
-docker run --rm -it -p 8888:8888 ghcr.io/yogendra/k8s-hw-sizer:latest
-```
+- **NO PERSISTANCE** - Download your CSV before you remove container.
 
-```bash
-open http://127.0.0.1:8888/lab
-```
+    ```bash
+    docker run --rm -it -p 8888:8888 ghcr.io/yogendra/k8s-hw-sizer:latest
+    ```
+
+    __**OR**__
+
+- With Persistance
+
+    ```bash
+    docker run --rm -p 8888:8888 -v ${PWD}/data:/home/jovyan/app/data ghcr.io/yogendra/k8s-hw-sizer:latest
+    ```
+
+- [Click here to open notebook](http://localhost:8888/lab/tree/k8s-sizer.ipynb)
