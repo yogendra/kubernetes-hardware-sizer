@@ -6,3 +6,5 @@ src/.ipython
 src/.local
 .DS_Store
 **/*.pyc
+test/persistent-workspace/data/.ipynb_checkpoints/pods-checkpoint.csv
+**/.ipynb_checkpoints
