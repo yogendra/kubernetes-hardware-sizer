@@ -39,7 +39,7 @@ Kubernetes Hardware Sizer based on Jupyter Notebook
 - **NO PERSISTANCE** - Download your CSV before you remove container.
 
     ```bash
-    docker run --rm -it -p 8888:8888 ghcr.io/yogendra/k8s-hw-sizer:latest
+    docker run --rm -it -p 8888:8888 ghcr.io/yogendra/k8s-hw-sizer:main
     ```
 
     __**OR**__
@@ -47,7 +47,7 @@ Kubernetes Hardware Sizer based on Jupyter Notebook
 - With Persistance
 
     ```bash
-    docker run --rm -p 8888:8888 -v ${PWD}/data:/home/jovyan/app/data ghcr.io/yogendra/k8s-hw-sizer:latest
+    docker run --rm -p 8888:8888 -v ${PWD}/data:/home/jovyan/app/data ghcr.io/yogendra/k8s-hw-sizer:main
     ```
 
 - [Click here to open notebook](http://localhost:8888/lab/tree/k8s-sizer.ipynb)
